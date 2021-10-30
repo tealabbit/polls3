@@ -1,0 +1,44 @@
+body {
+    font-family: Georgia, serif;
+    background: white url("images/background.png") no-repeat;
+    background-position: right top;
+    margin : 100px;
+}
+li {
+    font-size : 20px;
+    list-style-type : circle;
+    padding : 5px 0px 5px 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+a {
+    color : teal;
+    text-decoration-line : none;
+    margin : 10px;
+}
+
+h1 {
+   color : lightblue;
+   margin : 10px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#btn {
+    border-radius : 5px;
+    border: 1px solid pink;
+    background-color : lightpink;
+    color : white;
+    padding : 6px;
+}
+
+#btn2 {
+    border-radius : 5px;
+    border: 1px solid teal;
+    background-color : lightblue;
+    color : white;
+    padding : 6px;
+}
