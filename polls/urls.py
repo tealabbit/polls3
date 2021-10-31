@@ -14,5 +14,3 @@ urlpatterns = [
     # ex: /polls/5/vote/
     path('<int:question_id>/vote/', views.vote, name='vote')
 ]
-
-urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_URL, insecure=True)
